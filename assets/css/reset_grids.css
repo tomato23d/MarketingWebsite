@@ -4,35 +4,28 @@
 		background-color: #2a607c;
 		color: #ffffff;
 	}*/
-   .content {width: 75%; margin-left: 20px;
-
-   }
-	
-	p {font-size: 16px; } 
-	
+   .content {width: 99%; margin-left: auto; margin-right: auto;
+ }
+		
 	h2 {font-weight: bold; text-align: center; font-size: 50 px; }
 	/*img{
 		height: 50px;
 		width: 50px;
 		margin-left: auto;
 		margin-right: auto;	}*/
-
+.fitblock1 {height: 800px; width: 100%; }
 
 .gridm {display:grid; grid-template-columns: repeat(3,3fr, 1fr); background-color: #d9dcd6; column-gap: 10px; row-gap: 1em;}
 .gridm > div { background-color: #0072bb; padding: 10px; color: #ffffff;}
-/*.header { grid-area: 1 / 6/ 1/ 1; }
-.block1 {grid-column-start: 1; grid-column-end: 6; grid-row-start: 2; grid-row-end: 2;}*/
 .sidebar {grid-column-start: 4; grid-column-end: 6; grid-row-start: 1; grid-row-end: 4;}
 .seo {grid-column-start: 1; grid-column-end: 4; grid-row-start: 1; grid-row-end: 1;}
 .orm {grid-column-start: 1; grid-column-end: 4; grid-row-start: 2; grid-row-end: 2;}
 .smm {grid-column-start: 1; grid-column-end: 4; grid-row-start: 3; grid-row-end: 3;}
 
 
-.blockA {height: 400px; width: 100%; 
-background-size: cover; background-position: center;}
-.block1 {height: 400px; width: 100%; 
-	background: url("./assets/images1/planet4.jpg");
-background-size: cover; background-position: center;}
+
+
+
 #sb {background-color: #2589bd;}
 .left {float:left; margin: 2px}
 .right {float:left; margin: 2px}
