@@ -16,7 +16,7 @@
 .gridm > div { background-color: rgba(31, 156, 209, 0.8); text-align: center; padding: 10px; font-size: 30px;}
 .header { grid-area: 1 / 6/ 1/ 1; }
 .block1 {grid-column-start: 1; grid-column-end: 6; grid-row-start: 2; grid-row-end: 2;}
-.sidebar {grid-column-start: 4; grid-column-end: 6; grid-row-start: 3; grid-row-end: 5;}
+.sidebar {grid-column-start: 4; grid-column-end: 6; grid-row-start: 3; grid-row-end: 6;}
 .block21 {grid-column-start: 1; grid-column-end: 4; grid-row-start: 3; grid-row-end: 3;}
 .block22 {grid-column-start: 1; grid-column-end: 4; grid-row-start: 4; grid-row-end: 4;}
 .block23 {grid-column-start: 1; grid-column-end: 4; grid-row-start: 5; grid-row-end: 5;}
