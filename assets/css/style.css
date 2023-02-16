@@ -4,7 +4,7 @@
 		background-color: #d9dcd6; 
 		box-sizing: border-box;
 	}
-	
+	/* The page header is defined via div class and contains the bar with three choices to navigate*/
 	.header {
 		padding: 20px;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,18 +50,22 @@
 		font-weight: bold; 
 		text-align: center; 
 		font-size: 50 px;}
+		
+	
+	/*The requirement to present the picture accross the whole width page*/
+		.fitblock1 {
+			height: 800px; 
+			width: 100%; 
+		}
 
-
+	/* The page content is managed with two divisions including grids*/
    .content {
 		width: 99%; 
 		margin-left: auto; 
 		margin-right: auto;
  	}
 		
-	.fitblock1 {
-		height: 800px; 
-		width: 100%; 
-	}
+
 
 	.gridm {
 		display:grid; 
@@ -94,6 +98,7 @@
 		grid-column-start: 1; grid-column-end: 4; grid-row-start: 3; grid-row-end: 3;
 	}
 
+	/*Style individual grid cells*/
 
 	#sb {
 		background-color: #2589bd;
@@ -129,7 +134,7 @@
 		margin-right: auto;
 		max-width: 150px;
 	}
-
+/*Style footer*/
 
 	.footer {
 		padding: 30px;
