@@ -1,9 +1,5 @@
     body {margin: 0; padding: 0; background-color: #d9dcd6; box-sizing: border-box;}
-	header {padding: 20px;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		background-color: #2a607c;
-		color: #ffffff;
-	}
+	
 	.header {
 		padding: 20px;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -53,11 +49,7 @@
 		
 	h2 {font-weight: bold; text-align: center; font-size: 50 px;}
 	p {font-size: 20px; } 
-	/*img{
-		height: 50px;
-		width: 50px;
-		margin-left: auto;
-		margin-right: auto;	}*/
+	
 .fitblock1 {height: 800px; width: 100%; }
 
 .gridm {display:grid; grid-template-columns: repeat(3,3fr, 1fr); background-color: #d9dcd6; column-gap: 10px; row-gap: 1em;}
@@ -99,12 +91,7 @@
 	#sb p {
 			margin-bottom: 10px;
 			text-align: center;}
-/*	.benefit img {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 150px;
-	}*/
-	
+
 	
 
 	.footer {
