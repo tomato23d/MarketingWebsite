@@ -1,9 +1,53 @@
     body {margin: 0; padding: 0; background-color: #d9dcd6; box-sizing: border-box;}
-/*	.header {padding: 20px;
+	header {padding: 20px;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		background-color: #2a607c;
 		color: #ffffff;
-	}*/
+	}
+	.header {
+		padding: 20px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		background-color: #2a607c;
+		color: #ffffff;
+	}
+	
+	.header h1 {
+		display: inline-block;
+		font-size: 48px;
+	}
+	
+	.header h1 .seo {
+		color: #d9dcd6;
+	}
+	
+	.header div {
+		padding-top: 15px;
+		margin-right: 20px;
+		float: right;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 20px;
+	}
+	
+	.header div ul {
+		list-style-type: none;
+	}
+	
+	.header div ul li {
+		display: inline-block;
+		margin-left: 25px;
+	}
+	
+	a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	p {
+		font-size: 16px;
+	}
+
+
+
    .content {width: 99%; margin-left: auto; margin-right: auto;
  }
 		
@@ -34,31 +78,32 @@
 #sb {background-color: #2589bd;}
 .left {float:left; margin: 2px; max-height: 200px;}
 .right {float:right; margin: 2px; max-height: 200px;}
-/*.benefits {display: block; max-width: 150px;}*/
+.benefitcenter {margin-left: auto;
+		margin-right: auto;
+		max-width: 150px;}
+
 .blockpara {float: right;
 	text-align:left;
 	margin: 5px;
 	padding: 2px;}
 
 
-	.benefit {
+	#sb {
 		margin-bottom: 32px;
 		color: #ffffff;
 	}
-	.benefit h3 {
+	#sb h3 {
 		margin-bottom: 10px;
 		text-align: center;}
 	
-	.benefit p {
+	#sb p {
 			margin-bottom: 10px;
 			text-align: center;}
-	.benefit img {
-		/*display: block;*/
+/*	.benefit img {
 		margin-left: auto;
 		margin-right: auto;
-		/*margin: 10px auto;*/
 		max-width: 150px;
-	}
+	}*/
 	
 	
 
